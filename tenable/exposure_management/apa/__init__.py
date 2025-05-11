@@ -33,7 +33,7 @@ class TenableAPA(APIPlatform):
     Examples:
         Basic Example:
 
-        >>> from tenable.exposure_management.apa import TenableAPA
+        >>> from tenable.apa import TenableAPA
         >>> tapa = TenableAPA('ACCESS_KEY', 'SECRET_KEY')
 
         Example with proper identification:
