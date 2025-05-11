@@ -1,8 +1,8 @@
 import pytest
 import responses
 
-from tenable.apa.findings.api import FindingIterator
-from tenable.apa.findings.schema import FindingsPageSchema
+from tenable.exposure_management.apa.findings.api import FindingIterator
+from tenable.exposure_management.apa.findings.schema import FindingsPageSchema
 
 
 @pytest.fixture

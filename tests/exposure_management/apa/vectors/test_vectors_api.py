@@ -1,8 +1,8 @@
 import pytest
 import responses
 
-from tenable.apa.vectors.api import VectorIterator
-from tenable.apa.vectors.schema import VectorsPageSchema
+from tenable.exposure_management.apa.vectors.api import VectorIterator
+from tenable.exposure_management.apa.vectors.schema import VectorsPageSchema
 
 
 @pytest.fixture
